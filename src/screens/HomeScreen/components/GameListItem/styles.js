@@ -11,6 +11,8 @@ const styles = StyleSheet.create({
   },
   trophyContainer: {
     flexDirection: 'row',
+    width: '100%',
+    alignContent: 'space-between',
   },
 });
 
