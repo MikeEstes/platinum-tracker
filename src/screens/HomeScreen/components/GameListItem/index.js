@@ -1,9 +1,9 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import { Text, View } from 'react-native';
 import styles from './styles';
 
 const GameListItem = (props) => {
-  const {name, bronze, silver, gold, platinum, lastPlayed} = props.game;
+  const { name, bronze, silver, gold, platinum, lastPlayed } = props.game;
   return (
     <View style={styles.container}>
       <Text>{name}</Text>

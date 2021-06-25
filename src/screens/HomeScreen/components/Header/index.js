@@ -1,10 +1,10 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import { Text, View } from 'react-native';
 import styles from './styles';
 
-const Header = props => {
+const Header = (props) => {
   return (
-    <View>
+    <View style={styles.container}>
       <Text>Player Header</Text>
     </View>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import {FlatList, Text, View} from 'react-native';
+import { FlatList, Text, View } from 'react-native';
 import GameListItem from '../GameListItem';
 import styles from './styles';
 
@@ -12,7 +12,7 @@ const GameList = (props) => {
       <FlatList
         data={games}
         keyExtractor={(item) => item.name}
-        renderItem={({item}) => {
+        renderItem={({ item }) => {
           return <GameListItem game={item} />;
         }}
       />

@@ -1,12 +1,13 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#eee',
-    marginHorizontal: 5,
+    backgroundColor: '#ffffff60',
+    marginRight: 20,
     marginBottom: 10,
     padding: 10,
-    borderRadius: 15,
+    borderTopRightRadius: 10,
+    borderBottomRightRadius: 10,
   },
   trophyContainer: {
     flexDirection: 'row',
